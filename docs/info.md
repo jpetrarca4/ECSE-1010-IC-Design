@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This circuit counts in BCD from 0-15 using an external clock signal. It has an active high enable and reset functionality. D represents the MSB while A represents the LSB.
 
 ## How to test
 
-Explain how to use your project
+Ensure that the enable is high, provide a clock signal at an observable frequency. Connect the outputs to LEDs or some other method of monitoring their volatage. Watch as the counter circuit cycles from 0-15 in BCD.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+Oscilator, LEDs, switch
